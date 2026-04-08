@@ -1,17 +1,17 @@
 import streamlit as st;
 test_page = st.Page(
-    page = 'views\sample.py',
+    page = 'views/sample.py',
     # title='',
     icon=':material/home:'
 )
 profile_page = st.Page(
-    page = 'views\profile.py',
+    page = 'views/profile.py',
     title='Profile',
     icon=':material/person:',
     default=True
 )
 contact_page = st.Page(
-    page = 'views\contact.py',
+    page = 'views/contact.py',
     title='Contact us',
     icon=':material/thumb_up:',
 )
