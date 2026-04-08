@@ -1,7 +1,7 @@
 import streamlit as st;
 # st.title('Streamlit App')
 
-home_page = st.Page(
+test_page = st.Page(
     page = 'views\test.py',
     title='Home',
     icon=':material/home:'
@@ -21,7 +21,7 @@ contact_page = st.Page(
 # nb = st.navigation(pages=[home_page, profile_page,contact_page])
 nb= st.navigation(
     {
-        'info':[home_page,profile_page],
+        'info':[test_page,profile_page],
         'Useful Link':[contact_page]
     }
 )
