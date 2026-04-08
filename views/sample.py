@@ -5,3 +5,8 @@ from numpy.random import default_rng as rng
 st.title('Home')
 df = pd.DataFrame(rng(0).standard_normal((20, 3)), columns=["a", "b", "c"])
 st.line_chart(df)
+
+st.divider()
+prompt = st.chat_input("Say something")
+if prompt:
+    st.write(f"User has sent the following prompt: {prompt}")

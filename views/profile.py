@@ -22,4 +22,14 @@ st.divider()
 st.markdown("- Item A")
 st.markdown("- Item B")
 st.divider()
-st.balloons()
+# st.balloons()
+st.snow()
+st.divider()
+import time
+
+with st.spinner("Wait for it...", show_time=True):
+    time.sleep(5)
+st.success("Done!")
+st.button("Rerun")
+st.divider()
+st.toast("Your edited image was saved!", icon="😍")
