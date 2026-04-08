@@ -1,9 +1,7 @@
 import streamlit as st;
-# st.title('Streamlit App')
-
 test_page = st.Page(
     page = 'views\sample.py',
-    title='Home',
+    # title='',
     icon=':material/home:'
 )
 profile_page = st.Page(
