@@ -23,6 +23,6 @@ nb= st.navigation(
         'Useful Link':[contact_page]
     }
 )
-st.logo('assets\moon.png')
+st.logo('assets/moon.png')
 st.sidebar.text("Powered by: Arvind")
 nb.run()
